@@ -1,0 +1,31 @@
+<!DOCTYPE html "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+          <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+          <title>NICT STC SHIVA Demonstration</title>
+          <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=geometry"></script>
+          <script type="text/javascript" src="./js/prototype.js"></script>
+          <script type="text/javascript" src="./js/move_cmap.js"></script>
+          <script type="text/javascript" src="./js/move_overlay_info.js"></script>
+      </head>
+      <body>
+          <div id="map_canvas1" style="width:100%; height:100%; z-index: 1"></div>
+          <font face="sans-serif">
+              <div id="map_menu" style="position: absolute; top: 0px; left: 20px;z-index: 10">
+              <h2 style="color:#00AA00;" id="tick_time">Time Field</h2>
+              <h2 style="color:#00AA00;" id="elevation" style="position:relative; top: -20px">Flood Level: </h2>
+              <h2 style="color:#00AA00;" id="information" style="position:relative; top: -40px">Information Field</h2>
+              </div>
+          </font>
+          <!--
+          <div style=" position: absolute; top: 10px; right:20px; z-index:10">
+              <form id="start_stop">
+                  <input type="button" value="STOP" onclick="StartStop()">
+              </form>
+          </div>
+          -->
+      </body>
+</html>
+
+
